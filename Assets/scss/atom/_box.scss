@@ -1,0 +1,20 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+    border: 1px solid #ffffff; 
+    padding: 10px; 
+}
+
+.box-image {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.box-image img {
+    width: 30px; 
+    height: auto; 
+}
+

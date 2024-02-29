@@ -1,0 +1,41 @@
+.background {
+    position: relative; 
+    background-image: url("../images/Rectangle%2034624442.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.man-image {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+    .list ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+    }
+    
+    .list ul li {
+        width: 48%; 
+        margin-bottom: 10px; 
+    }
+    
+    .list ul li img {
+        width: 20px; 
+        height: 20px;
+        margin-right: 10px; 
+    }
+    .man-image {
+        position: absolute; 
+        right: 20px; 
+        bottom: 20px; 
+        z-index: 1; 
+    }
+    
+    

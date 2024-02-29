@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+}
+
+.box-image {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.box-image img {
+  width: 30px;
+  height: auto;
+}
+
+.navbar {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+}
+.navbar .leftnavbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar .leftnavbar img {
+  width: 20px;
+  height: 20px;
+}
+.navbar .facebook {
+  height: 5px;
+}
+.navbar .rightnavbar {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .rightnavbar img {
+  width: 10px;
+  height: 10px;
+  padding-right: 10px;
+}
+.navbar .rightnavbar span {
+  font-size: 14px;
+}
+.navbar .button {
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(0, 80, 94);
+}
+@media (max-width: 768px) {
+  .navbar .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .leftnavbar,
+  .navbar .rightnavbar {
+    margin-top: 10px;
+  }
+  .navbar .rightnavbar {
+    order: -1;
+  }
+}
+
+.bottomnavbar {
+  display: flex;
+  border-top: #443e3e;
+  padding: 10px;
+  font-family: "Poppins";
+}
+
+.bottomnavbar img {
+  width: 90px;
+  height: auto;
+  margin-right: 400px;
+}
+
+.bottomnavbar .navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.bottomnavbar .navbar-nav .nav-link {
+  align-items: flex-end;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Optional: Add styles for active link */
+.bottomnavbar .navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.rectangle {
+  background-image: url("../images/Rectangle.svg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+}
+.rectangle h2, .rectangle p {
+  padding: 20px;
+}
+.rectangle p {
+  padding-right: 400px; /* Add right padding to the <p> tag */
+}
+@media only screen and (max-width: 768px) {
+  .rectangle {
+    background-size: contain;
+    padding: 20px;
+  }
+}
+
+.background {
+  position: relative;
+  background-image: url("../images/Rectangle%2034624442.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+.man-image {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list ul li {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.list ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.man-image {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.heading {
+  color: rgb(11, 92, 146);
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+h1 {
+  color: rgb(11, 92, 146);
+  margin-top: 5px;
+}
+
+.heading h2 {
+  margin-right: 10px;
+}
+
+.boxes {
+  display: flex;
+}
+
+h3, p {
+  text-align: left;
+}
+
+.blue {
+  background-color: rgb(19, 19, 56);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 150px;
+  height: 180px;
+  margin: auto;
+}
+
+.pookkutty {
+  position: absolute;
+  top: -110px;
+  left: 10px;
+  z-index: 1;
+}
+
+.absorption {
+  z-index: 0;
+  color: rgb(0, 0, 0);
+}
+
+.bluebox-content {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .blue {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  .pookkutty {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-bottom: 20px;
+  }
+}
+.Footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 12, 66);
+}
+
+.list {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 0 10px;
+}
+
+.list li:not(:last-child) {
+  border-right: 1px solid rgb(255, 255, 255);
+  padding-right: 10px;
+}
+
+.image-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-list i {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.Footer {
+  text-align: center;
+}
+
+.Copyright {
+  padding-top: 10px;
+  color: white;
+}
+
+* {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #170841;
+  height: 400px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.content > div {
+  margin-right: 10px;
+}
+
+.content img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content > div {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.content > div:not(:last-child) {
+  padding-top: 20px;
+  border-right: 1px solid #646161;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.two-columns ul {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}/*# sourceMappingURL=style.css.map */

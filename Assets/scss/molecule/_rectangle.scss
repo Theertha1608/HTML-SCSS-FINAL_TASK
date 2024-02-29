@@ -1,0 +1,21 @@
+.rectangle {
+    background-image: url("../images/Rectangle.svg");
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(255, 255, 255); 
+  
+    h2, p {
+        padding: 20px; 
+      }
+  
+      p {
+        padding-right: 400px; /* Add right padding to the <p> tag */
+      }
+    
+  
+    @media only screen and (max-width: 768px) {
+     
+      background-size: contain; 
+      padding: 20px; 
+    }
+  }

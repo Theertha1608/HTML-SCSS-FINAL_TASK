@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bluebox</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Background color of the page */
+        }
+
+        .blue {
+            background-color: blue;
+            padding: 20px; /* Adjust padding as needed */
+            text-align: center;
+            position: relative;
+            width: 150px; 
+            height: 180px;
+        }
+
+        .pookkutty {
+            position: absolute;
+            top: -110px; /* Adjust the top position to move the image outside the blue box */
+            left: 40%;
+            transform: translateX(-50%);
+            z-index: 1; /* Ensure the image stays above other content */
+        }
+
+        .absorption {
+            z-index: 0; /* Ensure the text remains below the image */
+            color: white; /* Set text color to white for contrast */
+        }
+    </style>
+</head>
+<body>
+    <div class="blue">
+        <div class="pookkutty">
+            <img src="../Assets/images/pookkutty.svg" alt="">
+        </div>
+        <div class="absorption">
+            <img src="../Assets/images/B.svg" alt="">
+            <h3>Absorption</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+</html>

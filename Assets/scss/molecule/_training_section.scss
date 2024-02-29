@@ -1,0 +1,64 @@
+.heading {
+    color: rgb(11, 92, 146);
+    display: flex; 
+    align-items: center;
+    margin-bottom: 5px; 
+}
+
+h1 {
+    color: rgb(11, 92, 146);
+    margin-top: 5px;
+}
+
+.heading h2 {
+    margin-right: 10px; 
+}
+
+.boxes {
+    display: flex;
+}
+
+h3, p {
+    text-align: left; 
+}
+
+.blue {
+    background-color: rgb(19, 19, 56);
+    padding: 20px; 
+    text-align: center;
+    position: relative;
+    width: 150px; 
+    height: 180px;
+    margin: auto;
+}
+
+.pookkutty {
+    position: absolute;
+    top: -110px; 
+    left: 10px; 
+    z-index: 1; 
+}
+
+.absorption {
+    z-index: 0; 
+    color: rgb(0, 0, 0); 
+}
+.bluebox-content {
+    text-align: left; 
+}
+
+@media only screen and (max-width: 600px) {
+    .blue {
+        width: 100%; 
+        height: auto; 
+        text-align: left; 
+    }
+
+    .pookkutty {
+        position: relative; 
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-bottom: 20px; 
+    }
+}

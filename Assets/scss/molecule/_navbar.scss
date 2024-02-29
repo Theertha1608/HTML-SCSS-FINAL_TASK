@@ -1,0 +1,29 @@
+.bottomnavbar {
+    display: flex;
+    border-top: #443e3e;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.bottomnavbar img {
+    width: 90px;
+    height: auto;
+    margin-right: 400px;
+}
+
+.bottomnavbar .navbar-nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+.bottomnavbar .navbar-nav .nav-link {
+    align-items: flex-end;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Optional: Add styles for active link */
+.bottomnavbar .navbar-nav .nav-link.active {
+    font-weight: bold;
+}
