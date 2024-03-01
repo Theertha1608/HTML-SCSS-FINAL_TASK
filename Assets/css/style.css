@@ -574,13 +574,30 @@ h2 {
 }
 .benefits-container .whiteboxes {
   position: absolute;
-  top: 700px;
-  top: 90%;
+  top: 50%;
   left: 10%;
-  transform: translateY(-155%);
+  transform: translateY(-90%);
   width: 80%;
   height: 350px;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.course {
+  padding-top: 40px;
+}
+
+.headingbox {
+  text-align: right;
+  color: black;
+}
+
+.whiteboxe {
+  color: black;
+  width: calc(23% - 20px);
+  padding: 20px;
+  background-color: white;
 }
 
 .benefits-heading {
@@ -593,6 +610,12 @@ h2 {
   margin-bottom: 40px;
 }
 
+.paragraph {
+  padding-top: 100px;
+  color: black;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 768px) {
   .benefits-heading {
     font-size: 20px;
@@ -600,4 +623,86 @@ h2 {
   .benefits-mainHeading {
     font-size: 30px;
   }
+}
+.countries {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.countries-box {
+  color: black;
+  width: calc(20% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-left: 80px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.input-container input[type=text] {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.input-container i {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #404be6;
+}
+
+.box_form {
+  border-left: 2px solid #000;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin: 10px;
+  position: relative;
+  height: 300px;
+  width: 200px;
+}
+.box_form h3 {
+  font-size: 32px;
+  color: #395fa6;
+}
+
+.phone-input {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.code-input,
+.phone-input {
+  flex: 1;
+  border: none;
+  padding: 2px;
+}
+
+.code-input {
+  border-right: 1px solid black;
 }/*# sourceMappingURL=style.css.map */

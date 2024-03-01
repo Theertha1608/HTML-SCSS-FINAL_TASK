@@ -1,11 +1,9 @@
-
 @mixin center-element {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
 
 .benefits-container {
     height: 500px;
@@ -23,15 +21,16 @@
         left: 400px;
     }
     
-   
-    .laptop{
+    .laptop {
         top: 150px;
         left: 400px;
     }
-    .laptopman{
+    
+    .laptopman {
         top: 50px;
         left: 500px;
     }
+    
     .notification-image {
         top: 200px; 
         left: 200px; 
@@ -51,19 +50,23 @@
         top: 230px; 
         left: 200px; 
     }
-    .lockicon{
+    
+    .lockicon {
         top: 120px;
         left: 550px;
     }
-    .settingsicon{
+    
+    .settingsicon {
         top: 260px;
         right: 390px;
     }
-    .timeicon{
+    
+    .timeicon {
         top: 300px;
         right: 180px;
     }
-    .danger{
+    
+    .danger {
         top: 90px;
         right: 140px;
     }
@@ -75,31 +78,51 @@
         height: 500px;
         background-color: rgb(134, 133, 133);
     }
+    
     .whiteboxes {
         position: absolute;
-        top: 700px;
-        top: 90%; 
+        top: 50%; 
         left: 10%; 
-        transform: translateY(-155%);
+        transform: translateY(-90%);
         width: 80%;
         height: 350px;
         background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between; 
     }
 }
 
+
+.course{
+    padding-top: 40px;
+}
+
+.headingbox{
+    text-align: right;
+    color: black;
+}
+
+.whiteboxe {
+    color: black;
+    width: calc(23% - 20px); 
+    padding: 20px; 
+    background-color: white;
+}
 
 .benefits-heading {
     font-size: 24px;
     margin-bottom: 20px;
 }
-  
 
 .benefits-mainHeading {
     font-size: 36px;
     margin-bottom: 40px;
 }
-  
-
+.paragraph{
+    padding-top: 100px;
+    color: black;
+    font-size: 12px;
+}
 @media screen and (max-width: 768px) {
     .benefits-heading {
         font-size: 20px;
