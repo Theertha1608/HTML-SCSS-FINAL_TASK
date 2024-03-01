@@ -100,7 +100,6 @@ body {
   color: #000;
 }
 
-/* Optional: Add styles for active link */
 .bottomnavbar .navbar-nav .nav-link.active {
   font-weight: bold;
 }
@@ -115,7 +114,7 @@ body {
   padding: 20px;
 }
 .rectangle p {
-  padding-right: 400px; /* Add right padding to the <p> tag */
+  padding-right: 400px;
 }
 @media only screen and (max-width: 768px) {
   .rectangle {
@@ -148,7 +147,7 @@ body {
 }
 
 .list ul li {
-  width: 48%;
+  width: 28%;
   margin-bottom: 10px;
 }
 
@@ -185,7 +184,7 @@ h1 {
   display: flex;
 }
 
-h3, p {
+.bluebox-content h3, p {
   text-align: left;
 }
 
@@ -352,4 +351,253 @@ h2 {
        column-count: 2;
   -moz-column-gap: 20px;
        column-gap: 20px;
+}
+
+.Testimonial-container {
+  display: flex;
+  background-color: rgb(255, 136, 0);
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
+.testinomial-heading {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.testinomial-heading h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.testimonial-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+.employee-testimonial {
+  margin-top: 40px;
+  margin-left: 10px;
+  position: relative;
+  width: 30%;
+  height: 300px;
+  background-color: #ece7e7;
+  padding: 20px;
+}
+
+.employee-image {
+  position: absolute;
+  width: 90px;
+  top: -15%;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.employee-quote {
+  position: absolute;
+  top: -15%;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.employee-name {
+  color: black;
+  margin-top: 10px;
+}
+
+.employee-paragraph {
+  color: black;
+  margin-bottom: 0;
+}
+
+.readmore {
+  color: rgb(86, 86, 235);
+  padding-top: 30px;
+}
+
+.Testimonial-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  color: black;
+}
+
+.testinomial-heading {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+
+.testinomial-heading h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.testimonial-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+
+.employee-testimonial {
+  margin-top: 40px;
+  margin-left: 10px;
+  position: relative;
+  width: 30%;
+  height: 300px;
+  background-color: #ece7e7;
+  padding: 20px;
+}
+
+.employee-image {
+  position: absolute;
+  width: 90px;
+  top: -15%;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.employee-quote {
+  position: absolute;
+  top: -15%;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.employee-name {
+  color: black;
+  margin-top: 10px;
+}
+
+.employee-paragraph {
+  color: black;
+  margin-bottom: 0;
+}
+
+.readmore {
+  color: rgb(86, 86, 235);
+  padding-top: 30px;
+}
+
+.emp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.benefits-container {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/bluebackgound.svg");
+  text-align: left;
+  position: relative;
+}
+.benefits-container img {
+  position: absolute;
+}
+.benefits-container .round {
+  top: 20px;
+  left: 400px;
+}
+.benefits-container .laptop {
+  top: 150px;
+  left: 400px;
+}
+.benefits-container .laptopman {
+  top: 50px;
+  left: 500px;
+}
+.benefits-container .notification-image {
+  top: 200px;
+  left: 200px;
+}
+.benefits-container .bluedot-image {
+  top: 230px;
+  left: 250px;
+}
+.benefits-container .first-bar-image {
+  top: 230px;
+  left: 150px;
+}
+.benefits-container .second-bar-image {
+  top: 230px;
+  left: 200px;
+}
+.benefits-container .lockicon {
+  top: 120px;
+  left: 550px;
+}
+.benefits-container .settingsicon {
+  top: 260px;
+  right: 390px;
+}
+.benefits-container .timeicon {
+  top: 300px;
+  right: 180px;
+}
+.benefits-container .danger {
+  top: 90px;
+  right: 140px;
+}
+.benefits-container .quickresults {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(134, 133, 133);
+}
+.benefits-container .whiteboxes {
+  position: absolute;
+  top: 700px;
+  top: 90%;
+  left: 10%;
+  transform: translateY(-155%);
+  width: 80%;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+}
+
+.benefits-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.benefits-mainHeading {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .benefits-heading {
+    font-size: 20px;
+  }
+  .benefits-mainHeading {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

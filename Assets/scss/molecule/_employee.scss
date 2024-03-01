@@ -1,0 +1,41 @@
+.employee-testimonial {
+  margin-top: 40px;
+  margin-left: 10px;
+  position: relative;
+  width: 30%; 
+  height: 300px; 
+  background-color: #ece7e7;
+  padding: 20px;
+}
+
+.employee-image {
+  position: absolute;
+  width: 90px; 
+  top: -15%; 
+  left: 20%; 
+  transform: translateX(-50%); 
+  z-index: 1;
+  border-radius: 50%;
+  max-width: 100%; 
+  height: auto; 
+}
+.employee-quote{
+  position: absolute;
+  top: -15%; 
+  left: 20%; 
+  transform: translateX(-50%); 
+  z-index: 1;
+}
+.employee-name {
+  color: black;
+  margin-top: 10px;
+}
+
+.employee-paragraph {
+  color: black;
+  margin-bottom: 0;
+}
+.readmore{
+  color: rgb(86, 86, 235);
+  padding-top: 30px;
+}

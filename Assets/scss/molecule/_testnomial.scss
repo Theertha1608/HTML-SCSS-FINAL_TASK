@@ -1,0 +1,28 @@
+.Testimonial-container {
+    display: flex;
+    background-color: rgb(255, 136, 0);
+    flex-direction: column;
+    align-items: center;
+    height: 400px; 
+  }
+  
+  .testinomial-heading {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  
+  .testinomial-heading h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+  }
+  
+  .testimonial-paragraph {
+    font-size: 16px; 
+    line-height: 1.5; 
+    text-align: center;
+    margin: 0; 
+  }
+  
